@@ -1,0 +1,43 @@
+# Mac Specific Stuff
+.DS_Store
+# Scala -->
+.worksheet
+.cache
+*.class
+*.log
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+# Scala-IDE specific
+.scala_dependencies
+# <-- Scala
+# Eclipse -->
+*.pydevproject
+.project
+.metadata
+bin/
+bin/**
+bin/**/*
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+# <-- Eclipse
